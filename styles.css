@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+
+body {
+    background: #24252a;
+    margin: 0;
+    padding: 0;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ConstructionText {
+    font-family: "Comfortaa";
+    font-size: 6vw;
+    color: white;
+    z-index: 1;
+}
+
+.ConstructionTextShadow {
+    position: absolute;
+    font-family: "Comfortaa";
+    font-size: 6vw;
+    z-index: -1;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    
+    color: #0000004d;
+}
+
+.SorryText {
+    position: absolute;
+    font-family: "Comfortaa";
+    font-size: 2vw;
+    bottom: 0;
+    margin-bottom: 10vh;
+    color: hsl(230, 8%, 20%);
+}
