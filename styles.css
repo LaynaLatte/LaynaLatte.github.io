@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 
 
 body {
-    background: #24252a;
+    background: #705745;
     margin: 0;
     padding: 0;
     margin-top: 5rem;
@@ -12,7 +13,7 @@ body {
 }
 
 .ConstructionText {
-    font-family: "Comfortaa";
+    font-family: "Playwrite GB S", "Comfortaa", serif;
     font-size: 6vw;
     color: white;
     z-index: 1;
@@ -20,7 +21,7 @@ body {
 
 .ConstructionTextShadow {
     position: absolute;
-    font-family: "Comfortaa";
+    font-family: "Playwrite GB S", "Comfortaa", serif;
     font-size: 6vw;
     z-index: -1;
     margin-left: 1vw;
@@ -31,9 +32,9 @@ body {
 
 .SorryText {
     position: absolute;
-    font-family: "Comfortaa";
+    font-family: "Playwrite GB S", "Comfortaa", serif;
     font-size: 2vw;
     bottom: 0;
     margin-bottom: 10vh;
-    color: hsl(230, 8%, 20%);
+    color: hsla(0, 0%, 100%, 0.15);
 }
